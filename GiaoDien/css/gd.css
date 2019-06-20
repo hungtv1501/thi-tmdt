@@ -1,0 +1,79 @@
+div.banner {
+			background-image: url('../cristiano-ronaldo-juventus-champions-league_1qam5o5lzojlo1b00td72vh3zq.jpg');
+			width: 1400px;
+			height: 300px;
+			margin: auto;
+		}
+
+		body{
+		    font-family: tahoma;
+		    font-size: 16px;
+		}
+		nav{
+		    width: 1400px;
+		    height: 50px;
+		    background-color: black;
+		    margin: auto;
+		    margin-top: -15px;
+		}
+		nav ul {
+		    text-align: center;
+		}
+		nav ul.menuN li {
+		    list-style: none;
+		    display: inline-block;
+		    position: relative;
+		    width: 350px;
+		    margin-left: -60px;
+		}
+		nav ul li:hover{
+		     background-color: red; 
+		}
+		nav ul.menuN li a{
+		    text-decoration: none;
+		    text-align: center;
+		    margin : 15px 0px;
+		    border-right: 1px solid white;
+		    color: white;
+		    display: block;
+		}
+		nav ul.menuN li a:last-of-type{
+		    border: none;
+		}
+		/* sub-menu*/
+		nav ul.menuN li ul.sub-menu {
+		    display: none;
+		    position: absolute;
+		    top: 50px;
+		    left: 0px;
+		    background-color: black;
+		    width: 150px;
+		    border-top: 1px solid white;
+		    z-index: 1000;
+		}
+		nav ul.menuN li ul.sub-menu li{
+		    width: 350px;
+		    margin-left: -40px;
+		    background-color: black;
+		}
+		nav ul.menuN li ul.sub-menu li:hover {
+			background-color: red;
+		}
+		nav ul.menuN li ul.sub-menu li a{
+		    text-align: left;
+		    border: none;
+		    margin-left: 5px;
+		}
+		nav ul.menuN li:hover ul.sub-menu{
+		    display: block;
+		}
+
+		div.bottom {
+			width: 1400px;
+			/* height: 200px; */
+			margin: auto;
+			background-color: blue;
+		}
+		div.bottom div.content {
+			text-align: center;
+		}
