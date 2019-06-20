@@ -16,7 +16,7 @@
 			$row = $result->fetch_assoc();
 		}
 	?>
-	<form action="sua.php" action="GET">
+	<form action="sua.php" method="GET">
 		<input type="text" name="masv" value="<?=$row['masv']?>" style="display: none;">
 		HoTen<input type="text" name="hoten" value="<?=$row['hoten']?>">
 		NgaySinh<input type="text" name="ngaysinh" value="<?=$row['ngaysinh']?>">

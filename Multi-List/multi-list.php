@@ -10,7 +10,7 @@
 	<?php
 		session_start();
 	?>
-	<form action="multi-list.php" action="GET">
+	<form action="multi-list.php" method="GET">
 		MaSV<input type="text" name="masv">
 		HoTen<input type="text" name="hoten">
 		NgaySinh<input type="text" name="ngaysinh">

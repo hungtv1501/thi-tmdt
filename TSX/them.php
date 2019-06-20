@@ -8,7 +8,7 @@
 </head>
 <body>
 	<?php require('connect.php'); ?>
-	<form action="them.php" action="GET">
+	<form action="them.php" method="GET">
 		MaSV<input type="text" name="masv">
 		HoTen<input type="text" name="hoten">
 		NgaySinh<input type="text" name="ngaysinh">
