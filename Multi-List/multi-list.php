@@ -19,17 +19,13 @@
 		<button type="submit" name="gui">Gui</button>
 	</form>
 	<?php
-		$i = $_SESSION['i'];
-		$_SESSION['arr'];
 		if (isset($_GET['gui'])) {
-			$i++;
 			$_SESSION['arr'] .= $_GET['masv']."-";
 			$_SESSION['arr'] .= $_GET['hoten']."-";
 			$_SESSION['arr'] .= $_GET['ngaysinh']."-";
 			$_SESSION['arr'] .= $_GET['gioitinh']."-";
 			$_SESSION['arr'] .= $_GET['quequan']."-";
 		}
-		$_SESSION['i'] = $i;
 	?>
 
 	<table>
